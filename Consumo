@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+    int distancia;
+    float combustivel;
+
+    //std::cout << "Informe a distância total percorrida (em Km): ";
+    std::cin >> distancia;
+
+    //std::cout << "Informe o total de combustível gasto (em litros): ";
+    std::cin >> combustivel;
+
+    float resultado = static_cast<float>(distancia) / combustivel;
+
+    printf ("%.3f km/l\n", resultado);
+
+    return 0;
+}
