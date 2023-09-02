@@ -1,23 +1,18 @@
-#include <iostream>
-#include <cmath>
-
+#include <stdio.h>
+ 
 int main() {
-    const double pi = 3.14159; // Valor de pi
-    double raio, area, valorAdicional;
-
-    //std::cout << "Digite o valor do raio do circulo: ";
-    std::cin >> raio;
-
-    //std::cout << "Digite o valor adicional para somar a area: ";
-    std::cin >> valorAdicional;
-
-    // Calcula a area do circulo usando a formula A = pi * r^2
-    area = pi * std::pow(raio, 2);
-
-    // Soma o valor adicional à área
-    area += valorAdicional;
-
-    printf("A=%.4f\n", area);
-
+    
+    int a, b, c, d;
+    int DIFERENCA;
+    
+    scanf ("%d", &a);
+    scanf ("%d", &b);
+    scanf ("%d", &c);
+    scanf ("%d", &d);
+    
+    DIFERENCA = a * b - c * d;
+    
+    printf ("DIFERENCA = %d\n", DIFERENCA);
+    
     return 0;
 }
