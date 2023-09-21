@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="estrutura.css">
+</head>
+<body>
+    <!--inicio cabecario-->
+    <header>
+        <nav >
+            <ul>
+                <a href="estrutura.html"><li>Home</li></a>
+                <a href="estrutura2.html"><li>Sobre</li></a>
+                <a href="estrutura3.html"><li>Contato</li></a>
+               
+            </ul>
+        </nav>
+    </header>
+    <!--fimcabecario-->
+    <section id="banner-se">
+        <!--para colocar imagem arrastar da pasta e colocar no arquivo
+        do codigo-->
+        <img src="foto.jpg" alt="urso"
+        width="100%" height="100%" title="imagem de urso">
+ 
+    </section>
+    <section id="card-section">
+        <div class="card">
+                <div class="img-card"> 
+                    <img src="cavalo.jpg"
+                    width="100%" height="100%"
+                    alt="" srcset="">
+
+
+                </div>
+                <div class="text-card">
+                    <h1 class="titulo-card"> CAVALO </h1>
+                    <a href="#Saiba mais">
+                    <p class="p-card"> Saiba mais </p>
+                </a>
+
+                </div>
+ 
+
+        </div>
+        <div class="card">
+ 
+        </div>
+        <div class="card">
+ 
+        </div>
+ 
+    </section>
+ 
+</body>
+</html>
