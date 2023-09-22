@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="estrutura.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <!--inicio cabecario-->
@@ -22,22 +22,23 @@
     <!--fimcabecario-->
     <section id="banner-se">
         <!--para colocar imagem arrastar da pasta e colocar no arquivo
-        do codigo-->
-        <img src="foto.jpg" alt="urso"
-        width="100%" height="100%" title="imagem de urso">
+        do codigo
+        <img src="xna0pg82.png" alt="ram">
+        width-->
+        
  
     </section>
     <section id="card-section">
         <div class="card">
                 <div class="img-card"> 
-                    <img src="cavalo.jpg"
+                    <img src="fora.jpg"
                     width="100%" height="100%"
                     alt="" srcset="">
 
 
                 </div>
                 <div class="text-card">
-                    <h1 class="titulo-card"> CAVALO </h1>
+                    <h1 class="titulo-card"> RAM </h1>
                     <a href="#Saiba mais">
                     <p class="p-card"> Saiba mais </p>
                 </a>
@@ -47,6 +48,50 @@
 
         </div>
         <div class="card">
+            <div class="img-card"> 
+                <img src="fora.jpg"
+                width="100%" height="100%"
+                alt="" srcset="">
+
+
+            </div>
+            <div class="text-card">
+                <h1 class="titulo-card"> RAM </h1>
+                <a href="#Saiba mais">
+                <p class="p-card"> Saiba mais </p>
+            </a>
+
+            </div>
+ 
+        </div>
+        <div class="card">
+            <div class="img-card"> 
+                <img src="fora.jpg"
+                width="100%" height="100%"
+                alt="" srcset="">
+
+
+            </div>
+            <div class="text-card">
+                <h1 class="titulo-card"> RAM </h1>
+                <a href="#Saiba mais">
+                <p class="p-card"> Saiba mais </p>
+            </a>
+
+            </div>
+ 
+        </div>
+ 
+    </section>
+
+    <!--CARD 2
+    <section id="card-section">
+        <div class="card">
+                
+ 
+
+        </div>
+        <div class="card">
  
         </div>
         <div class="card">
@@ -54,6 +99,27 @@
         </div>
  
     </section>
- 
+
+    CARD FIM-->
+
+
+    <section id="secao3">
+        <div id="text-secao3">
+                <h1>
+                    A sua Dodge Ram
+                </h1>
+                <h2>
+                    Lorem ipsum dolor, sit amet Lorem ipsum dolor, sit amet
+                </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate expedita molestiae rerum
+                    ea? Repellendus quos repellat minima non exercitationem ipsum harum? Magni sed illo error
+                    eos eligendi a quibusdam mollitia. 
+                    </p>
+        </div>
+        <div id="img-secao3">
+
+
+        </div>
+    </section>
 </body>
 </html>
